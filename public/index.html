@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Dictionary Lookup</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <section class="container">
+      <h1>Urban Dictionary Seeker <span class="emoji">💬</span></h1>
+
+      <form id="searchForm">
+        <label for="term">Type your slang XD:</label>
+        <input 
+          type="text" 
+          id="term" 
+          placeholder="e.g. 6 7 💅" 
+          required 
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <button id="toggleMode" class="mode-btn">🌙 Toggle Dark Mode</button>
+
+      <p class="disclaimer">
+        🧠 Caution! Definitions are taken from Urban Dictionary. Some words may be informal or slang. Read responsibly!
+      </p>
+
+      <div id="result" class="result-box">
+       
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

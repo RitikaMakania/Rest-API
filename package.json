@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=public"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitikaMakania/Rest-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitikaMakania/Rest-API/issues"
+  },
+  "homepage": "https://github.com/RitikaMakania/Rest-API#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
